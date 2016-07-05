@@ -1,0 +1,111 @@
+/* CSS Document */
+
+h4{
+	font-family: Microsoft YaHei;
+}
+input#btn_copy{
+	height:2.5em;
+	width:8em;
+	margin:0.2em;
+	font-size:1em;
+}
+input#link
+	{
+	height:2em;
+	width:30em;
+	margin:0.2em;
+	padding:0.2em;
+	}
+input{
+	height:2em;
+	width:15em;
+	margin:0.2em;
+	padding:0.2em;
+	font-size:0.5em;
+}
+table{
+	table-layout:fixed;
+}
+table td{
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+/* p#vtip {
+	display: none;
+	position: absolute;
+	padding: 2em;
+	left: 1em;
+	font-size: 0.8em;
+	background-color: white;
+	border: 1px solid #a6c9e2;
+	-moz-border-radius: 1em;
+	-webkit-border-radius: 1em;
+	z-index: 9999;
+}
+p#vtip #vtipArrow {
+	position: absolute;
+	top: -2em;
+	left: 1em;
+} */
+#customers
+  {
+  font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+  width:100%;
+  /*border-collapse:collapse;*/
+  border-collapse: separate;
+  border-spacing: 0.1em;
+  }
+#promt
+	{
+		font-family:"微软雅黑";
+		font-size:1.5em;
+	}
+.border{
+    border-style: groove; 
+    border-bottom-width: 0.5em; 
+    }
+.left{
+    float: top-left;
+    border: 0;
+    margin: 0;
+    padding: 0;
+    }
+.right{
+    float: right;
+    border: 0;
+    margin: 9px;
+    padding: 0;
+	}
+.btn{
+    width: 10% ;
+  	height: 5% auto;
+  	background: #617798;
+  	color: #FFFFFF;
+  	font-size: 1em; 
+  	-moz-border-radius: 5px; 	  /*Firefox浏览器私有前缀*/
+    -webkit-border-radius: 5px;   /*chrome和safari浏览器私有前缀*/
+	-ms-border-radius: 5px; 	 /*IE浏览器私有前缀*/
+	-o-border-radius: 5px; 		 /*opera浏览器私有前缀*/
+	}
+.btn_td{
+    width: 4em; 
+    height: 2em;
+	}
+.no{
+	color: #FF0000;
+	}
+.yes{
+    color: #00CD00;
+	}
+.wait{
+	color: #1C86EE;
+    }
+.cancel{
+  color: #969696;
+  }
+  a{
+    font-size: 20px;
+    margin: 10px;
+    text-decoration: none !important;
+  }

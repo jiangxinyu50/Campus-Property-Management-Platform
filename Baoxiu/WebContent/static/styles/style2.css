@@ -1,0 +1,62 @@
+/* CSS Document */
+
+h2{
+	font-family: "微软简中圆";
+	float: left;
+}
+p{
+	text-align: left;
+}
+label{
+	text-align: center;
+}
+span{
+	padding:10em;
+	maggrin:10em;
+	text-align: center;
+	font-family: "微软简中圆";
+	font-size:10em;
+}
+button{
+	width: 30% ;
+  	height: 30% ;
+  	font-size: 3em; 
+}
+.content{
+	margin:0 auto;
+}
+.content ul{
+	margin: -30px auto 10px -25px;
+}
+.content ul li{
+	font-size:15px;
+	list-style:none;
+	margin-bottom:5px;
+}
+.content ul li label{
+	width:40%;
+	float:left;
+	clear:both;
+	margin-bottom: 25px;
+    font-size: 17px;
+}
+.content ul li .right{
+	width:60%;
+	float:right;
+}
+div.form{
+	margin-top:50px;
+}
+form{
+	width:100%;
+}
+form input.btn1{
+	display:block;
+	margin:0 auto;
+	width: 90% !important;
+  	height: 50px ;
+  	background: #B9D3EE;
+  	color: #FFFFFF;
+  	font-size: 1em; 
+	border-radius: 5px; 
+}

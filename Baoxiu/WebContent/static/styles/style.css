@@ -1,0 +1,97 @@
+/* CSS Document */
+
+h1{ 
+    font-family: Microsoft YaHei;
+	font-size:3em; 
+	font-weight:bold; 
+	padding:0; 
+	border: 0; 
+	width:auto; 
+	margin:0; 
+	overflow:hidden; 
+	white-space:nowrap; 
+	padding-right: 10px;
+    vertical-align: baseline;
+}
+
+.list li{
+	list-style-type: none;
+}
+
+select {
+    padding: 9px; 
+    outline: 0; 
+    font: normal 13px/100% Verdana, Tahoma, sans-serif; 
+    width: 32%; 
+    height: 4%;
+    cursor: pointer;
+    background: #FFFFFF url('bg_form.png') left top repeat-x; 
+    background: -webkit-gradient(linear, left top, left 25, from(#FFFFFF), color-stop(4%, #EEEEEE), to(#FFFFFF)); 
+    background: -moz-linear-gradient(top, #FFFFFF, #EEEEEE 1px, #FFFFFF 25px); 
+    box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px; 
+  /*为下拉小箭头留出一点位置，避免被文字覆盖*/
+  padding-right: 14px;
+}
+/*清除ie的默认选择框样式清除，隐藏下拉箭头*/
+select::-ms-expand { display: none; }
+
+input, textarea{ 
+    padding: 9px; 
+    border: solid 1px #E5E5E5; 
+    outline: 0; 
+    font: normal 1em/100% Verdana, Tahoma, sans-serif; 
+    width: 30%; 
+    background: #FFFFFF url('bg_form.png') left top repeat-x; 
+    background: -webkit-gradient(linear, left top, left 25, from(#FFFFFF), color-stop(4%, #EEEEEE), to(#FFFFFF)); 
+    background: -moz-linear-gradient(top, #FFFFFF, #EEEEEE 1px, #FFFFFF 25px); 
+    box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px; 
+    -moz-box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px; 
+    -webkit-box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px; 
+    } 
+   
+textarea { 
+    width: 30%; 
+    max-width: 30%; 
+    height: auto; 
+    line-height: 150%; 
+    } 
+   
+input:hover, textarea:hover, 
+input:focus, textarea:focus { 
+    border-color: #C9C9C9; 
+    -webkit-box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 8px; 
+    } 
+   
+.form label { 
+    margin-left: 10px; 
+    color: #999999; 
+    }   
+label{
+	font-size: 1.5em;
+	font-family: "幼圆";
+  	}
+   
+.submit input { 
+    width: auto; 
+    padding: 9px 15px; 
+    background: #617798; 
+    border: 0; 
+    font-size: 0.5em; 
+    color: #FFFFFF; 
+    -moz-border-radius: 5px; 
+    -webkit-border-radius: 5px; 
+    }
+
+.border{
+    border-style: groove; 
+    border-bottom-width: 0.5em; 
+    }
+
+.info{
+	color:red;
+	font-size:1.5em;
+}
+.alert{
+	font-size:1em;
+}
+ 
